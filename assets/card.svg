@@ -57,10 +57,10 @@
     <text x="240" y="12" class="stat-desc">— Designed &amp; delivered full-stack production prototype under strict 24-hr deadline</text>
   </g>
 
-  <!-- Trait 3: Free Fire -->
+  <!-- Trait 3: Chess & Painting -->
   <g transform="translate(32, 160)">
     <circle cx="8" cy="8" r="4.5" fill="#00dfd8"/>
-    <text x="22" y="12" class="stat-label">Garena Free Fire Strategist</text>
-    <text x="220" y="12" class="stat-desc">— Fast tactical coordination, rapid reflex decision-making, and high team synergy</text>
+    <text x="22" y="12" class="stat-label">Chess &amp; Canvas Painting</text>
+    <text x="200" y="12" class="stat-desc">— Analytical board strategy, pattern foresight, and creative visual expression</text>
   </g>
 </svg>
