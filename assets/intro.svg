@@ -1,88 +1,66 @@
-<svg width="840" height="210" viewBox="0 0 840 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="190" viewBox="0 0 840 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#090d16"/>
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
-    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#30363d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
   </defs>
 
   <style>
-    .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 27px; font-weight: 800; fill: #f0f6fc; }
-    .role { font-family: 'SF Mono', Monaco, Consolas, 'Liberation Mono', monospace; font-size: 15px; font-weight: 600; fill: url(#textGrad); }
-    .pitch { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #8b949e; }
-    .pill-bg { fill: #21262d; stroke: #30363d; stroke-width: 1; rx: 12px; }
-    .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; font-weight: 600; }
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #f0f6fc; }
+    .role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14.5px; font-weight: 600; fill: #58a6ff; }
+    .pitch { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #8b949e; }
+    .pill-bg { fill: #21262d; stroke: #30363d; stroke-width: 1; rx: 6px; }
+    .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11.5px; font-weight: 500; }
   </style>
 
   <!-- Background Card -->
-  <rect width="840" height="210" rx="14" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="839" height="209" rx="13.5" stroke="url(#borderGlow)"/>
+  <rect width="840" height="190" rx="10" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="839" height="189" rx="9.5" stroke="#30363d"/>
 
-  <!-- Subtle Top Decorative Glow Bar -->
-  <rect x="30" y="0" width="120" height="3" rx="1.5" fill="#38bdf8"/>
-  <rect x="155" y="0" width="80" height="3" rx="1.5" fill="#818cf8"/>
-
-  <!-- Decorative Sparkles / Lights -->
-  <circle cx="780" cy="50" r="80" fill="#38bdf8" fill-opacity="0.05" />
-  <circle cx="720" cy="150" r="60" fill="#a855f7" fill-opacity="0.04" />
-
-  <!-- Avatar / Icon Placeholder Accent -->
-  <g transform="translate(42, 38)">
-    <rect width="44" height="44" rx="10" fill="#1f293d" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
-    <text x="22" y="28" font-size="20" text-anchor="middle">☕</text>
-  </g>
+  <!-- Left Accent Line -->
+  <rect x="0" y="24" width="4" height="142" rx="2" fill="#58a6ff"/>
 
   <!-- Headings -->
-  <text x="102" y="55" class="name">Hi there, I'm Lavanya Sundarapu <tspan font-size="24">👋</tspan></text>
-  <text x="102" y="78" class="role">> Java Full Stack Developer | Spring Boot &amp; AI-Assisted Dev</text>
+  <g transform="translate(36, 34)">
+    <text x="0" y="22" class="name">Hi there, I'm Lavanya Sundarapu 👋</text>
+    <text x="0" y="48" class="role">Java Full Stack Developer • Spring Boot &amp; React</text>
+    <text x="0" y="74" class="pitch">Building full-stack applications with Java, Spring Boot, and AI-assisted developer workflows.</text>
+  </g>
 
-  <!-- Pitch -->
-  <text x="42" y="118" class="pitch">Building resilient full-stack applications with Java, Spring Boot architectures, and modern web interfaces.</text>
-
-  <!-- Pills Strip -->
-  <g transform="translate(42, 145)">
+  <!-- Clean Pills Strip -->
+  <g transform="translate(36, 134)">
     <!-- Pill 1 -->
-    <rect width="125" height="26" class="pill-bg"/>
-    <circle cx="15" cy="13" r="3.5" fill="#38bdf8"/>
-    <text x="26" y="17" class="pill-text" fill="#e6edf3">Spring Boot 3</text>
+    <rect width="120" height="26" class="pill-bg"/>
+    <circle cx="14" cy="13" r="3" fill="#3fb950"/>
+    <text x="24" y="17" class="pill-text" fill="#e6edf3">Java &amp; Spring Boot</text>
 
     <!-- Pill 2 -->
-    <g transform="translate(135, 0)">
-      <rect width="110" height="26" class="pill-bg"/>
-      <circle cx="15" cy="13" r="3.5" fill="#61dafb"/>
-      <text x="26" y="17" class="pill-text" fill="#e6edf3">React.js</text>
+    <g transform="translate(130, 0)">
+      <rect width="100" height="26" class="pill-bg"/>
+      <circle cx="14" cy="13" r="3" fill="#58a6ff"/>
+      <text x="24" y="17" class="pill-text" fill="#e6edf3">React Frontend</text>
     </g>
 
     <!-- Pill 3 -->
-    <g transform="translate(255, 0)">
-      <rect width="145" height="26" class="pill-bg"/>
-      <circle cx="15" cy="13" r="3.5" fill="#ffa116"/>
-      <text x="26" y="17" class="pill-text" fill="#e6edf3">320+ LeetCode</text>
+    <g transform="translate(240, 0)">
+      <rect width="130" height="26" class="pill-bg"/>
+      <circle cx="14" cy="13" r="3" fill="#f0883e"/>
+      <text x="24" y="17" class="pill-text" fill="#e6edf3">320+ LeetCode Solved</text>
     </g>
 
     <!-- Pill 4 -->
-    <g transform="translate(410, 0)">
-      <rect width="135" height="26" class="pill-bg"/>
-      <circle cx="15" cy="13" r="3.5" fill="#a855f7"/>
-      <text x="26" y="17" class="pill-text" fill="#e6edf3">RESTful APIs</text>
+    <g transform="translate(380, 0)">
+      <rect width="115" height="26" class="pill-bg"/>
+      <circle cx="14" cy="13" r="3" fill="#bc8cff"/>
+      <text x="24" y="17" class="pill-text" fill="#e6edf3">Docker &amp; REST APIs</text>
     </g>
 
     <!-- Pill 5 -->
-    <g transform="translate(555, 0)">
-      <rect width="135" height="26" class="pill-bg"/>
-      <circle cx="15" cy="13" r="3.5" fill="#10b981"/>
-      <text x="26" y="17" class="pill-text" fill="#e6edf3">Docker &amp; CI/CD</text>
+    <g transform="translate(505, 0)">
+      <rect width="125" height="26" class="pill-bg"/>
+      <circle cx="14" cy="13" r="3" fill="#39c5bb"/>
+      <text x="24" y="17" class="pill-text" fill="#e6edf3">AI-Assisted Coding</text>
     </g>
   </g>
 </svg>

@@ -1,41 +1,37 @@
-<svg width="840" height="150" viewBox="0 0 840 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="140" viewBox="0 0 840 140" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="shBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#090d16"/>
-    </linearGradient>
-    <linearGradient id="shBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
   </defs>
 
   <style>
-    .sh-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; font-weight: 700; fill: #3fb950; text-transform: uppercase; letter-spacing: 1px; }
-    .sh-pitch { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; font-weight: 600; fill: #f0f6fc; }
-    .sh-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12.5px; fill: #8b949e; }
-    .sh-link { font-family: 'SF Mono', Consolas, monospace; font-size: 11.5px; font-weight: 600; fill: #58a6ff; }
+    .sh-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #3fb950; text-transform: uppercase; letter-spacing: 1px; }
+    .sh-pitch { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #f0f6fc; }
+    .sh-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #8b949e; }
+    .sh-link { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #58a6ff; }
   </style>
 
   <!-- Background Card -->
-  <rect width="840" height="150" rx="14" fill="url(#shBg)"/>
-  <rect x="0.5" y="0.5" width="839" height="149" rx="13.5" stroke="url(#shBorder)"/>
+  <rect width="840" height="140" rx="10" fill="url(#shBg)"/>
+  <rect x="0.5" y="0.5" width="839" height="139" rx="9.5" stroke="#30363d"/>
+
+  <!-- Left Accent Line -->
+  <rect x="0" y="20" width="4" height="100" rx="2" fill="#3fb950"/>
 
   <!-- Pulse Status Indicator -->
-  <g transform="translate(32, 28)">
-    <circle cx="8" cy="8" r="5" fill="#3fb950"/>
-    <circle cx="8" cy="8" r="8" fill="#3fb950" fill-opacity="0.25"/>
-    <text x="25" y="12" class="sh-title">AVAILABLE FOR HIRE // FULL-TIME ROLES</text>
+  <g transform="translate(32, 26)">
+    <circle cx="6" cy="6" r="4" fill="#3fb950"/>
+    <text x="18" y="10" class="sh-title">Open to Opportunities</text>
   </g>
 
   <!-- Content -->
-  <text x="32" y="68" class="sh-pitch">Open to Full-Time Java Full Stack, Backend Developer &amp; Spring Boot roles.</text>
-  <text x="32" y="90" class="sh-sub">Have a project, opportunity, or simply want to chat code? Let's build something remarkable.</text>
+  <text x="32" y="66" class="sh-pitch">Looking for Full-Time Java Full Stack, Spring Boot &amp; Backend Developer roles.</text>
+  <text x="32" y="88" class="sh-sub">Feel free to reach out for opportunities, discussions, or collaborative projects.</text>
 
   <!-- Channels row -->
   <g transform="translate(32, 114)">
-    <text x="0" y="10" class="sh-link">📧 lavanyadevika1122@gmail.com  |  💼 linkedin.com/in/lavanya-sundarapu  |  🐙 github.com/Lavanya-Sundarapu08</text>
+    <text x="0" y="0" class="sh-link">📧 lavanyadevika1122@gmail.com  •  💼 linkedin.com/in/lavanya-sundarapu  •  🐙 github.com/Lavanya-Sundarapu08</text>
   </g>
 </svg>
