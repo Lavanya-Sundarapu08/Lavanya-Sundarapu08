@@ -1,60 +1,66 @@
-<svg width="800" height="230" viewBox="0 0 800 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="230" viewBox="0 0 840 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#18182f"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#090d16"/>
+    <linearGradient id="cardHolo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151b28"/>
+      <stop offset="50%" stop-color="#0f141c"/>
+      <stop offset="100%" stop-color="#080b11"/>
     </linearGradient>
-    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ec4899"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+    <linearGradient id="holoBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="30%" stop-color="#7928ca"/>
+      <stop offset="70%" stop-color="#0070f3"/>
+      <stop offset="100%" stop-color="#00dfd8"/>
     </linearGradient>
-    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+    <linearGradient id="xpBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#7928ca"/>
     </linearGradient>
   </defs>
 
   <style>
-    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #ec4899; text-transform: uppercase; letter-spacing: 1.2px; }
-    .card-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #f8fafc; }
-    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #a855f7; text-transform: uppercase; letter-spacing: 1px; }
-    .fact-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #e2e8f0; }
-    .fact-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; font-weight: 800; fill: #f0f6fc; text-transform: uppercase; letter-spacing: 1.5px; }
+    .hero-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 20px; font-weight: 800; fill: #ffffff; }
+    .hero-role { font-family: 'SF Mono', Consolas, monospace; font-size: 12px; font-weight: 600; fill: #79c0ff; }
+    .stat-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12.5px; font-weight: 700; fill: #e6edf3; }
+    .stat-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #8b949e; }
   </style>
 
-  <!-- Background Card -->
-  <rect width="800" height="230" rx="14" fill="url(#cardBg)"/>
-  <rect x="1" y="1" width="798" height="228" rx="13" stroke="url(#cardBorder)" stroke-width="1.5" stroke-opacity="0.7"/>
+  <!-- Holographic Border & Background -->
+  <rect width="840" height="230" rx="14" fill="url(#cardHolo)"/>
+  <rect x="1" y="1" width="838" height="228" rx="13" stroke="url(#holoBorder)" stroke-width="1.8"/>
 
-  <!-- Top Bar -->
-  <text x="40" y="38" class="header">🎴 Developer Trading Card</text>
-  <rect x="640" y="20" width="120" height="24" rx="12" fill="url(#badgeGrad)" fill-opacity="0.2" stroke="#ec4899" stroke-opacity="0.4"/>
-  <text x="700" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#f472b6">RARE • BUILDER</text>
+  <!-- Card Top Banner -->
+  <g transform="translate(32, 28)">
+    <text x="0" y="0" class="card-title">🎴 DEVELOPER TRADING CARD</text>
+    <rect x="650" y="-14" width="125" height="22" rx="11" fill="#7928ca" fill-opacity="0.3" stroke="#a855f7" stroke-width="0.8"/>
+    <text x="712" y="1" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="800" fill="#d8b4fe">EDITION: 2026 // BUILDER</text>
+  </g>
+  <line x1="20" y1="44" x2="820" y2="44" stroke="#21262d" stroke-width="1"/>
 
-  <!-- Player Info -->
-  <text x="40" y="76" class="card-name">Lavanya Sundarapu</text>
-  <text x="40" y="96" class="card-title">Class: Java Full Stack Engineer // Problem Solver</text>
-
-  <!-- Fact 1 -->
-  <g transform="translate(40, 118)">
-    <circle cx="6" cy="6" r="4" fill="#ec4899"/>
-    <text x="22" y="10" class="fact-label">320+ LeetCode Solved:</text>
-    <text x="195" y="10" class="fact-desc">Consistent practice in Data Structures, Algorithms &amp; Dynamic Programming</text>
+  <!-- Character Header -->
+  <g transform="translate(32, 68)">
+    <text x="0" y="0" class="hero-name">Lavanya Sundarapu</text>
+    <text x="215" y="-1" class="hero-role">[ CLASS: Java Full Stack Engineer // LEVEL: Fresher ]</text>
   </g>
 
-  <!-- Fact 2 -->
-  <g transform="translate(40, 150)">
-    <circle cx="6" cy="6" r="4" fill="#a855f7"/>
-    <text x="22" y="10" class="fact-label">Hackathon Winner:</text>
-    <text x="170" y="10" class="fact-desc">Secured 1st place in regional hackathon building rapid collaborative software</text>
+  <!-- Trait 1: LeetCode -->
+  <g transform="translate(32, 92)">
+    <circle cx="8" cy="8" r="4.5" fill="#ffa116"/>
+    <text x="22" y="12" class="stat-label">320+ LeetCode Problems Cleared</text>
+    <text x="250" y="12" class="stat-desc">— High proficiency in Arrays, Strings, Trees, Graphs &amp; Dynamic Programming</text>
   </g>
 
-  <!-- Fact 3 -->
-  <g transform="translate(40, 182)">
-    <circle cx="6" cy="6" r="4" fill="#3b82f6"/>
-    <text x="22" y="10" class="fact-label">Garena Free Fire:</text>
-    <text x="165" y="10" class="fact-desc">Enjoys tactical shooter gameplay, team strategy, and quick decision-making</text>
+  <!-- Trait 2: Hackathon -->
+  <g transform="translate(32, 126)">
+    <circle cx="8" cy="8" r="4.5" fill="#a855f7"/>
+    <text x="22" y="12" class="stat-label">Regional Hackathon Champion</text>
+    <text x="240" y="12" class="stat-desc">— Designed &amp; delivered full-stack production prototype under strict 24-hr deadline</text>
+  </g>
+
+  <!-- Trait 3: Free Fire -->
+  <g transform="translate(32, 160)">
+    <circle cx="8" cy="8" r="4.5" fill="#00dfd8"/>
+    <text x="22" y="12" class="stat-label">Garena Free Fire Strategist</text>
+    <text x="220" y="12" class="stat-desc">— Fast tactical coordination, rapid reflex decision-making, and high team synergy</text>
   </g>
 </svg>
