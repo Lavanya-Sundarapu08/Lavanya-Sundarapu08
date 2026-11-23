@@ -1,0 +1,62 @@
+<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #818cf8; text-transform: uppercase; letter-spacing: 1.2px; }
+    .category { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 700; fill: #38bdf8; }
+    .item-bg { fill: #1e293b; stroke: #334155; stroke-width: 0.8; rx: 6px; }
+    .item-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; fill: #cbd5e1; }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="800" height="340" rx="12" fill="url(#bgGrad)"/>
+  <rect x="0.5" y="0.5" width="799" height="339" rx="11.5" stroke="url(#borderGrad)"/>
+
+  <!-- Title -->
+  <text x="40" y="38" class="header">🛠️ Technical Toolkit</text>
+
+  <!-- Section 1: Languages -->
+  <g transform="translate(40, 60)">
+    <text x="0" y="15" class="category">Languages</text>
+    <text x="170" y="15" class="item-text">Java • Python • SQL • TypeScript • JavaScript • C • C++</text>
+  </g>
+
+  <!-- Section 2: Backend & Frameworks -->
+  <g transform="translate(40, 104)">
+    <text x="0" y="15" class="category">Backend</text>
+    <text x="170" y="15" class="item-text">Spring Boot • Spring MVC • Spring Data JPA • Hibernate • Spring Security • REST APIs</text>
+  </g>
+
+  <!-- Section 3: Frontend -->
+  <g transform="translate(40, 148)">
+    <text x="0" y="15" class="category">Frontend</text>
+    <text x="170" y="15" class="item-text">React.js • HTML5 • CSS3 • Responsive Design</text>
+  </g>
+
+  <!-- Section 4: Databases & Cloud -->
+  <g transform="translate(40, 192)">
+    <text x="0" y="15" class="category">Databases &amp; Cloud</text>
+    <text x="170" y="15" class="item-text">MySQL • PostgreSQL • Redis • AWS • Docker • CI/CD • Linux</text>
+  </g>
+
+  <!-- Section 5: Tools & Testing -->
+  <g transform="translate(40, 236)">
+    <text x="0" y="15" class="category">Tools &amp; Testing</text>
+    <text x="170" y="15" class="item-text">Git • GitHub • Maven • Postman • JUnit 5 • IntelliJ IDEA • VS Code</text>
+  </g>
+
+  <!-- Section 6: AI-Assisted Dev -->
+  <g transform="translate(40, 280)">
+    <text x="0" y="15" class="category">AI Acceleration</text>
+    <text x="170" y="15" class="item-text">Antigravity • Prompt Engineering • AI-Assisted Coding &amp; Prototyping</text>
+  </g>
+</svg>

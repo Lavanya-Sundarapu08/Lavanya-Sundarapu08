@@ -1,0 +1,35 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="sayHiBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #34d399; text-transform: uppercase; letter-spacing: 1.2px; }
+    .status { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13.5px; font-weight: 600; fill: #f8fafc; }
+    .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .channel-box { fill: #1e293b; stroke: #334155; rx: 8px; }
+    .channel-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11.5px; font-weight: 600; fill: #cbd5e1; }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="800" height="150" rx="12" fill="url(#bgGrad)"/>
+  <rect x="0.5" y="0.5" width="799" height="149" rx="11.5" stroke="url(#sayHiBorder)"/>
+
+  <!-- Content -->
+  <text x="40" y="38" class="header">📫 Let's Connect</text>
+  <text x="40" y="68" class="status">Open to Full-Time Java Full Stack &amp; Backend Developer Roles</text>
+  <text x="40" y="92" class="subtext">Available for inquiries, technical discussions, or collaboration opportunities.</text>
+
+  <!-- Channels row -->
+  <g transform="translate(40, 108)">
+    <text x="0" y="16" class="channel-text">📧 lavanyadevika1122@gmail.com  •  💼 LinkedIn: lavanya-sundarapu  •  💻 GitHub: Lavanya-Sundarapu08</text>
+  </g>
+</svg>

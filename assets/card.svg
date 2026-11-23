@@ -1,0 +1,60 @@
+<svg width="800" height="230" viewBox="0 0 800 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18182f"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #ec4899; text-transform: uppercase; letter-spacing: 1.2px; }
+    .card-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #f8fafc; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #a855f7; text-transform: uppercase; letter-spacing: 1px; }
+    .fact-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #e2e8f0; }
+    .fact-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+  </style>
+
+  <!-- Background Card -->
+  <rect width="800" height="230" rx="14" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="798" height="228" rx="13" stroke="url(#cardBorder)" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Top Bar -->
+  <text x="40" y="38" class="header">🎴 Developer Trading Card</text>
+  <rect x="640" y="20" width="120" height="24" rx="12" fill="url(#badgeGrad)" fill-opacity="0.2" stroke="#ec4899" stroke-opacity="0.4"/>
+  <text x="700" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#f472b6">RARE • BUILDER</text>
+
+  <!-- Player Info -->
+  <text x="40" y="76" class="card-name">Lavanya Sundarapu</text>
+  <text x="40" y="96" class="card-title">Class: Java Full Stack Engineer // Problem Solver</text>
+
+  <!-- Fact 1 -->
+  <g transform="translate(40, 118)">
+    <circle cx="6" cy="6" r="4" fill="#ec4899"/>
+    <text x="22" y="10" class="fact-label">320+ LeetCode Solved:</text>
+    <text x="195" y="10" class="fact-desc">Consistent practice in Data Structures, Algorithms &amp; Dynamic Programming</text>
+  </g>
+
+  <!-- Fact 2 -->
+  <g transform="translate(40, 150)">
+    <circle cx="6" cy="6" r="4" fill="#a855f7"/>
+    <text x="22" y="10" class="fact-label">Hackathon Winner:</text>
+    <text x="170" y="10" class="fact-desc">Secured 1st place in regional hackathon building rapid collaborative software</text>
+  </g>
+
+  <!-- Fact 3 -->
+  <g transform="translate(40, 182)">
+    <circle cx="6" cy="6" r="4" fill="#3b82f6"/>
+    <text x="22" y="10" class="fact-label">Garena Free Fire:</text>
+    <text x="165" y="10" class="fact-desc">Enjoys tactical shooter gameplay, team strategy, and quick decision-making</text>
+  </g>
+</svg>
