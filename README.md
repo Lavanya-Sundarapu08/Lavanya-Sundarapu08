@@ -34,12 +34,7 @@
 
 <br/><br/>
 
-<!-- Card 2: Right Now Card -->
-<img src="assets/right-now.svg" alt="Right Now" width="100%" />
-
-<br/><br/>
-
-<!-- Card 3: Toolkit Card -->
+<!-- Card 2: Toolkit Card -->
 <img src="assets/toolkit.svg" alt="Toolkit" width="100%" />
 
 <br/>
