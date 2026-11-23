@@ -25,7 +25,7 @@
   <g transform="translate(36, 34)">
     <text x="0" y="22" class="name">Hi there, I'm Lavanya Sundarapu 👋</text>
     <text x="0" y="48" class="role">Java Full Stack Developer • Spring Boot &amp; React</text>
-    <text x="0" y="74" class="pitch">Building full-stack applications with Java, Spring Boot, and AI-assisted developer workflows.</text>
+    <text x="0" y="74" class="pitch">Building scalable, reliable full-stack applications with Java, Spring Boot, and modern web architectures.</text>
   </g>
 
   <!-- Clean Pills Strip -->
@@ -58,9 +58,9 @@
 
     <!-- Pill 5 -->
     <g transform="translate(505, 0)">
-      <rect width="125" height="26" class="pill-bg"/>
+      <rect width="135" height="26" class="pill-bg"/>
       <circle cx="14" cy="13" r="3" fill="#39c5bb"/>
-      <text x="24" y="17" class="pill-text" fill="#e6edf3">AI-Assisted Coding</text>
+      <text x="24" y="17" class="pill-text" fill="#e6edf3">MySQL &amp; PostgreSQL</text>
     </g>
   </g>
 </svg>

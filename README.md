@@ -76,11 +76,6 @@
 <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat&logo=junit5&logoColor=white" alt="JUnit 5" />
 </p>
 
-<p align="left">
-<b>AI Acceleration</b><br/>
-<img src="https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=openai&logoColor=white" alt="Prompt Engineering" />
-<img src="https://img.shields.io/badge/AI--Assisted_Development-38BDF8?style=flat&logo=google-gemini&logoColor=white" alt="AI-Assisted Development" />
-</p>
 
 <br/>
 
