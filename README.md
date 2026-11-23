@@ -1,16 +1,11 @@
 <div align="center">
 
-# Hi there, I'm Lavanya Sundarapu 👋
+<!-- Hero Banner -->
+<img src="assets/intro.svg" alt="Lavanya Sundarapu - Intro" width="100%" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=440&height=35&lines=Java+Full+Stack+Developer;Spring+Boot+%26+REST+API+Architect;AI-Assisted+Developer;320%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
-</a>
+<br/><br/>
 
-<p align="center">
-  <em>Building full-stack applications with Java, Spring Boot, and AI-assisted development.</em>
-</p>
-
-<!-- Social Badges -->
+<!-- Clickable Social Badges -->
 <a href="https://www.linkedin.com/in/lavanya-sundarapu-3a86b02aa/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin" alt="LinkedIn" />
 </a>
@@ -29,20 +24,8 @@
 
 <br/><br/>
 
-<!-- Card 1: Intro Card -->
-<img src="assets/intro.svg" alt="Lavanya Sundarapu - Intro" width="100%" />
-
-<br/><br/>
-
-<!-- Card 2: Toolkit Card -->
-<img src="assets/toolkit.svg" alt="Toolkit" width="100%" />
-
-<br/>
-
-<!-- Skill Icons Visual Strip -->
-<a href="#">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,mysql,postgres,redis,aws,docker,linux,git,github,maven,postman,py,c,cpp,js,ts,html,css&theme=dark" alt="Skills Matrix" />
-</a>
+<!-- Technical Toolkit -->
+<img src="assets/toolkit.svg" alt="Technical Toolkit" width="100%" />
 
 <br/><br/>
 
@@ -50,28 +33,28 @@
 <table width="100%">
   <thead>
     <tr>
-      <th align="left">🌟 Featured Projects</th>
+      <th align="left">Featured Project</th>
       <th align="left">Description</th>
-      <th align="center">Stack</th>
+      <th align="center">Core Stack</th>
       <th align="center">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b><a href="https://github.com/Lavanya-Sundarapu08/CareerSync">CareerSync</a></b></td>
-      <td>Recruitment platform with automated response deadlines and candidate skill matching.</td>
+      <td>Recruitment platform featuring automated response deadlines and candidate skill-matching algorithms.</td>
       <td align="center"><code>Java</code> <code>Spring Boot</code> <code>React</code></td>
       <td align="center">🔨 <i>In Progress</i></td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/Lavanya-Sundarapu08/Candor">Candor</a></b></td>
-      <td>Code Review Quality Checker detecting weak PR approvals and code-testing gaps.</td>
+      <td>Code Review Quality Checker inspecting pull requests to detect weak approvals and coverage gaps.</td>
       <td align="center"><code>Python</code> <code>Spring Boot</code> <code>GitHub API</code></td>
       <td align="center">🔨 <i>In Progress</i></td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/Lavanya-Sundarapu08/Smart-Expense-Tracker">Smart Expense Tracker</a></b></td>
-      <td>Personal expense and budget manager with recurring payment tracking and analytics.</td>
+      <td>Personal finance engine with recurring payment automation, expense tracking, and spending analytics.</td>
       <td align="center"><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code></td>
       <td align="center">🚀 <i>Coming Soon</i></td>
     </tr>
@@ -80,7 +63,7 @@
 
 <br/>
 
-<!-- Live Problem Solving & GitHub Stats -->
+<!-- Problem Solving & GitHub Stats -->
 <table width="100%" border="0">
   <tr>
     <td width="50%" align="center">
@@ -96,14 +79,24 @@
 
 <br/>
 
-<!-- Card 4: Developer Trading Card -->
-<img src="assets/card.svg" alt="Developer Trading Card" width="100%" />
+<!-- Highlights & Beyond Tech -->
+<img src="assets/card.svg" alt="Highlights and Interests" width="100%" />
 
 <br/><br/>
 
-<!-- Card 5: Say Hi / Contact Card -->
+<!-- Contact Banner -->
 <a href="mailto:lavanyadevika1122@gmail.com">
-  <img src="assets/say-hi.svg" alt="Say Hi Card" width="100%" />
+  <img src="assets/say-hi.svg" alt="Contact Card" width="100%" />
 </a>
+
+<br/><br/>
+
+<!-- Direct Clickable Links -->
+<p align="center">
+  <a href="mailto:lavanyadevika1122@gmail.com"><b>📧 Email</b></a> &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/lavanya-sundarapu-3a86b02aa/"><b>💼 LinkedIn</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/Lavanya-Sundarapu08"><b>💻 GitHub</b></a> &nbsp;•&nbsp;
+  <a href="https://leetcode.com/u/lavanyadevika26/"><b>🧩 LeetCode</b></a>
+</p>
 
 </div>
